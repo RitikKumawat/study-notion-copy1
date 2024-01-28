@@ -1,14 +1,15 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import StarRatingComponent from 'react-star-rating-component';
+
 import {GiNinjaStar} from "react-icons/gi"
 import {RiDeleteBin6Line} from "react-icons/ri"
 import { removeFromCart } from '../../../../slices/cartSlice';
+import StarRatingComponent from 'react-star-rating-component'
 
 
 
 export const RenderCartCourses = () => {
-  
+    
     const {cart} = useSelector((state)=>state.cart);
     const dispatch = useDispatch();
   

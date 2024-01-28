@@ -4,8 +4,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import {GiNinjaStar} from "react-icons/gi"
 import {RiDeleteBin6Line} from "react-icons/ri"
 import { removeFromCart } from '../../../../slices/cartSlice';
-import StarRatingComponent from 'react-star-rating-component'
-
+import StarRatingComponent from 'react-star-rating-component';
 
 
 export const RenderCartCourses = () => {
